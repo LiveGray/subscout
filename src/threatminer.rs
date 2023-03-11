@@ -11,7 +11,7 @@ pub async fn get_threatminer_subdomains(
     domain: &str,
 ) -> Result<Vec<Subdomain>, Box<dyn std::error::Error>> {
 
-    println!("[SubScout]> Grabbing domains from ThreatMiner...");
+    println!("[subscout]> Grabbing domains from ThreatMiner...");
 
     let response: ThreatminerResults = reqwest::get(format!(
         "https://api.threatminer.org/v2/domain.php?q={}&rt=5",
@@ -71,7 +71,7 @@ pub async fn get_threatminer_subdomains(
     // Stop progress bar once task completes   
     pb.finish_with_message("done");
 
-    println!("[SubScout]> Finished grabbing domains from ThreatMiner...");
+    println!("[subscout]> Finished grabbing domains from ThreatMiner...");
 
     Ok(subdomains)
 }
