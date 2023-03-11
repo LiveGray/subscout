@@ -1,0 +1,32 @@
+[package]
+name = "subscout"
+version = "0.1.0"
+authors = ["Dom Sec <domsecrocks@protonmail.com>"]
+edition = "2021"
+description = "A reliable, nimble, cross-platform subdomain enumerator."
+repository = "https://github.com/HexRays/SubScout"
+license = "GPL-3.0-or-later"
+keywords = ["discover-subdomains", "ct-logs", "search-subdomains", "enumerate-subdomains", "subdomain-scanner"]
+readme = "README.md"
+rust-version = "1.58"
+resolver = "1"
+
+[dependencies]
+serde = { version = "1.0.152", features = ["derive"] }
+serde_derive = "1.0.152"
+reqwest = { version = "0.11.14", features = ["blocking", "json", "gzip"] }
+rand = "0.8.5"
+rayon = "1.6.1"
+addr = "0.15.6"
+serde_json = "1.0.91"
+rusolver = { git = "https://github.com/Edu4rdSHL/rusolver", rev = "cf75cafee7c9d0c257c0b5a361441efc4e247e9c" }
+fhc = { git = "https://github.com/Edu4rdSHL/fhc", rev = "c6ea4c6ad810061312f4b380d0ab7d51775950b1" } 
+tokio = "1.25.0"
+crossbeam = "0.8.2"
+futures = "0.3.26"
+anyhow = "1.0.68"
+itertools = "0.10.5"
+native-tls = "0.2.11"
+clap = { version = "4.1.8", features = ["derive", "env"] }
+dotenv = "0.15.0"
+indicatif = "0.17.2"
