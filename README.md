@@ -13,7 +13,7 @@ subscout is a simple, nimble subdomain enumeration tool written in Rust language
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![GNU License][license-shield]][license-url]
 
 Sources:
 - Alienvault
@@ -105,6 +105,7 @@ Contributions are what make the open source community such an amazing place to b
 If you have a problem or a feature request, open an [issue](https://github.com/dom-sec/subscout/issues).
 
 <!-- STARGAZERS -->
+
 ## Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/dom-sec/subscout.svg)](https://starchart.cc/dom-sec/subscout)
@@ -112,3 +113,16 @@ If you have a problem or a feature request, open an [issue](https://github.com/d
 <!-- CONTRIBUTORS -->
 ## Contributors
 This project exists thanks to all the people who contribute. [See the contributors list](https://github.com/dom-sec/subscout/graphs/contributors).
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/dom-sec/subscout.svg?style=for-the-badge
+[contributors-url]: https://github.com/dom-sec/subscout/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/dom-sec/subscout.svg?style=for-the-badge
+[forks-url]: https://github.com/dom-sec/subscout/network/members
+[stars-shield]: https://img.shields.io/github/stars/dom-sec/subscout.svg?style=for-the-badge
+[stars-url]: https://github.com/dom-sec/subscout/stargazers
+[issues-shield]: https://img.shields.io/github/issues/dom-sec/subscout.svg?style=for-the-badge
+[issues-url]: https://github.com/dom-sec/subscout/issues
+[license-shield]: https://img.shields.io/github/license/dom-sec/subscout.svg?style=for-the-badge
+[license-url]: https://github.com/dom-sec/subscout/blob/master/LICENSE.txt
