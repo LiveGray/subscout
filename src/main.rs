@@ -50,7 +50,7 @@ fn print_opening() {
         "{}\n{}\n{}\n{}",
         r#"________________________________________"#,
         r#": https://discord.gg/HexRays           :"#,
-        r#": https://github.com/dom-sec/subscout   :"#,
+        r#": https://github.com/dom-sec/subscout  :"#,
         r#" --------------------------------------"#
     );
     println!("{}", info);
@@ -119,7 +119,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         files::create_output_dir()?;
 
         files::create_output_file(&output_file, &sub_clone)?;
-        println!("[subscout]> Output successfully writen.\n")
+        println!("[subscout]> Output successfully writen.\n");
 
         println!(
                 "\n[subscout]> Successfully scraped {} subdomains from {} in {:?}",
