@@ -119,7 +119,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         files::create_output_dir()?;
 
         files::create_output_file(&output_file, &sub_clone)?;
-        println!("[subscout]> Output successfully writen.\n");
+        println!("\n[subscout]> Output successfully writen.");
 
         println!(
                 "\n[subscout]> Successfully scraped {} subdomains from {} in {:?}",
